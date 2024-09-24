@@ -1,0 +1,45 @@
+aside{
+    width: 215px;
+    padding: 5px;
+
+}
+aside input{
+    width: 215px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid rgb(167, 166, 166);
+    padding-left: 30px;
+   
+}
+.icon{
+    position: relative;
+}
+.icon p{
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    font-size: large;
+    padding-left: 6px;
+}
+aside p{
+    align-items: center;
+    display: flex;
+}
+
+aside input:focus{
+    border-color: #555;
+}
+
+aside hr{
+    margin-top: 30px;
+}
+
+@media (max-width:768px) {
+    aside{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,40 @@
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+section article{
+    width: 300px;
+    gap: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    transition: box-shadow 0.4s ease;
+   
+}
+article img{
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+article{
+    border-radius: 5px;
+    cursor: pointer;
+}
+article .p{
+    font-size: 15px;
+    text-align: start;
+    margin: 5px;
+    padding: 5px;
+
+}
+article h3{
+    font-size: 20px;
+    text-align: start;
+    margin: 5px;
+    padding: 5px;
+}
+section article:hover{
+    box-shadow: 0 2px 5px rgba(1.5, 1, 0, 0.4);
+}
